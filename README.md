@@ -100,3 +100,13 @@ Content-Type: application/json
 ⚠️ 주의사항
 
 모델 파일(best_model.h5)이 커서 Git LFS 사용을 권장합니다.
+
+
+① Docker 이미지 빌드
+docker build -t ai-review .
+
+② 컨테이너 실행
+docker run -d -p 8000:8000 ai-review
+
+③ API 호출 (백엔드에서)
+POST http://localhost:8000/analyze
