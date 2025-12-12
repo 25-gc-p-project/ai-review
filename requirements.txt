@@ -1,6 +1,6 @@
 fastapi
 uvicorn
-tensorflow
 numpy
-python-mecab-ko
+konlpy
+jpype1
 scikit-learn
